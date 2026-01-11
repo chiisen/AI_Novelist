@@ -21,3 +21,8 @@ git remote remove edwin45168899
 專案名稱同本地專案名稱
 README.md、.gitignore、LICENSE 都不要設定  
 因為 commit 後可能會衝突  
+
+## 推送到遠端的 GitHub
+```bash 
+git push edwin45168899 main
+```
