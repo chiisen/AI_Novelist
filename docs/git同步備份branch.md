@@ -25,4 +25,10 @@ README.md、.gitignore、LICENSE 都不要設定
 ## 推送到遠端的 GitHub
 ```bash 
 git push edwin45168899 main
+
+# 本地的分支
+git push origin main
+
+# 本地的分支並追蹤
+git push -u origin main
 ```
