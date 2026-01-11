@@ -38,6 +38,8 @@ git push -u origin main
 ```bash
 # 注意 origin 的 push 會多一個 push
 git remote set-url --add --push origin git@github.com:edwin45168899/AI_Novelist.git
+# 預設沒設定 origin，可能還要設定一次
+git remote set-url --add --push origin git@github.com-chiisen:chiisen/AI_Novelist.git
 
 # 刪除 git remote set-url 設定
 ## push
